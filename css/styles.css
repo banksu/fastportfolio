@@ -11,6 +11,7 @@
 @import "components/content-box.css";
 @import "components/icon-raw.css";
 @import "components/setting-title.css";
+@import "components/no-mobile.css";
 
 /*Screens*/
 @import "screens/login.css";
