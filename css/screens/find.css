@@ -39,3 +39,14 @@
   margin-bottom: -10px;
   text-align: center;
 }
+.certiBox {
+  display: flex;
+  flex-direction: column;
+}
+.certi {
+  width: 500px;
+  height: auto;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  margin: 10px 0px;
+}
