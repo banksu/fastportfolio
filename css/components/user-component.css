@@ -1,0 +1,87 @@
+.user-component {
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.user-component,
+.user-component__column:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.user-component__avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 37%;
+  margin-right: 20px;
+}
+
+.user-component__title {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.user-component__subtitle {
+  margin-top: 6px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+}
+
+.user-component__avatar--xl {
+  width: 80px;
+  height: 80px;
+}
+
+.user-component__avatar--sm {
+  width: 60px;
+  height: 60px;
+}
+
+.user-component__title--not-bold {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.user-component__column:last-child {
+  color: rgba(0, 0, 0, 0.4);
+  /*왠지 기억해야할거같은데 이건*/
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.user-component__time {
+  margin-bottom: 5px;
+  display: block;
+}
+
+.user-component__title__chats-screen {
+  font-size: 18px;
+}
+
+.user-component__column__fropile-music {
+  color: rgba(0, 0, 0, 0.5);
+  padding: 7px 10px;
+  border: 1px solid #82c91e;
+  border-radius: 10% / 50%;
+  font-size: 70%;
+}
+
+.user-component__column__fropile-music i {
+  margin-left: 3px;
+  color: #82c91e;
+}
+
+.user-component__title__more {
+  font-size: 25px;
+}
+
+.user-component__subtitle__more {
+  font-weight: bold;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.i__tomato {
+  color: tomato;
+}
