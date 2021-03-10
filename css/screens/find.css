@@ -1,0 +1,41 @@
+.screen-header__icons__point {
+  position: relative;
+}
+
+.find-screen__header {
+  padding: 15px 0px;
+  border-top: var(--gray-bar);
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: space-between;
+}
+
+.find-screen__first__inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 10px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 18px;
+}
+.find-screen__first {
+  margin-bottom: 25px;
+}
+
+.find-screen__second {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__goto {
+  font-weight: 500;
+}
+
+.icon-raw__icon .fa-address-book + span {
+  font-size: 17px;
+  width: 80px;
+  margin-bottom: -10px;
+  text-align: center;
+}
